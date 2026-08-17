@@ -1,4 +1,4 @@
-mport hashlib
+import hashlib
 
 # This is the same database dictionary from the sign-up step
 user_database = {
@@ -37,4 +37,4 @@ print(log_in("alice@example.com", "WrongPassword"))
 # Output: Error: Invalid email or password.
 
 # 3. Try to log in with the correct password
-print(log_in("alice@example.com", "SuperSecret1
+print(log_in("alice@example.com", "SuperSecret123"))
